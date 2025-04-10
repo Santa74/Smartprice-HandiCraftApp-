@@ -1,0 +1,26 @@
+
+:root {
+    --primary-color: #4a6bff;
+    --secondary-color: #f8f9fa;
+    --accent-color: #ff7e5f;
+    --text-color: #333;
+    --light-text: #6c757d;
+    --highlight-color: #ffcc00;
+    --dark-accent: #e64a19;
+}
+
+/* ... rest of CSS omitted for brevity; all styles from the <style> tag in the original HTML ... */
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    input, button {
+        padding: 12px 15px;
+    }
+}
